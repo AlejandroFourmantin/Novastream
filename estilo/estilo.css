@@ -6,11 +6,24 @@
 }
 .navbar {
   font-family: "Google Sans", sans-serif;
-  font-size: 15px;
-  background-color: #2a3439;
-  /*  background-color: #353E43; */
+  font-size: 17px;
+  color: white;
+  font-weight: 900;
+  background-image: url(../contenido/backgraund/FONDONAV.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.textosnav{
+  transition: 0.2s;
+
+}
+
+.textosnav:hover{
+  transform: scale(1.1);
+  
 }
 .imgnav {
-  width: 180px;
+  width: 200px;
   height: auto;
 }
