@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  font-family: "Google Sans", sans-serif;
+  font-size: 15px;
+  background-color: #2a3439;
+  /*  background-color: #353E43; */
+}
+.imgnav {
+  width: 180px;
+  height: auto;
+}
