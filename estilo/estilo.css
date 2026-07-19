@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -19,15 +20,18 @@
   width: 200px;
   height: auto;
 }
+
 .textosnav {
   transition: 0.2s;
   color: white;
 }
+
 @media (hover: hover) {
   .textosnav:hover {
     transform: scale(1.1);
   }
 }
+
 .form-control {
   border-radius: 10px;
   padding: 10px 20px;
@@ -47,14 +51,30 @@
   color: gray;
 }
 
-.shadow-color{
+.shadow-color {
   box-shadow: 0 0 20px 10px rgba(0, 195, 255, 0.6);
 }
+
 main {
   margin-top: 135px;
   background-color: #0f1111;
 }
 
-.form-container-limite{
+.form-container-limite {
   max-width: 500px;
+  border-radius: 20px;
+  border-color: rgba(0, 195, 255, 0.6);
+  border-width: 3px;
+}
+
+.formlogin::placeholder{
+  font-size: 15px;
+
+}
+.formlogincrearcuenta::placeholder{
+font-weight: bolder;
+}
+
+.text-crearcuenta{
+  font-weight: bolder;
 }
