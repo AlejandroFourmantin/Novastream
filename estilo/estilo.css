@@ -14,15 +14,16 @@
   background-position: center;
 }
 
-.textosnav{
+.textosnav {
   transition: 0.2s;
-
 }
 
-.textosnav:hover{
-  transform: scale(1.1);
-  
+@media (hover: hover) {
+  .textosnav:hover {
+    transform: scale(1.1);
+  }
 }
+
 .imgnav {
   width: 200px;
   height: auto;
