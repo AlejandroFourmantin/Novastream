@@ -29,13 +29,14 @@
   }
 }
 .form-control {
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 10px 20px;
   width: 250px;
 }
 
+
 .btn-outline-secondary {
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 5px 20px;
   color: white;
   font-size: small;
@@ -46,7 +47,14 @@
   color: gray;
 }
 
+.shadow-color{
+  box-shadow: 0 0 20px 10px rgba(0, 195, 255, 0.6);
+}
 main {
   margin-top: 135px;
   background-color: #0f1111;
+}
+
+.form-container-limite{
+  max-width: 500px;
 }
