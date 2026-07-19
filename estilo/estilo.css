@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .navbar {
   font-family: "Google Sans", sans-serif;
   font-size: 17px;
@@ -14,17 +15,33 @@
   background-position: center;
 }
 
-.textosnav {
-  transition: 0.2s;
-}
-
 .imgnav {
   width: 200px;
   height: auto;
 }
-
+.textosnav {
+  transition: 0.2s;
+  color: white;
+}
 @media (hover: hover) {
   .textosnav:hover {
     transform: scale(1.1);
   }
+}
+.form-control {
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 300px;
+}
+
+.btn-outline-secondary {
+  border-radius: 50px;
+  padding: 5px 20px;
+  color: white;
+  font-size: large;
+}
+
+.form-control::placeholder {
+  font-size: large;
+  color: gray;
 }
