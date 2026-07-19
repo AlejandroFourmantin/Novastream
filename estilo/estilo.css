@@ -31,14 +31,14 @@
 .form-control {
   border-radius: 50px;
   padding: 10px 20px;
-  width: 300px;
+  width: 250px;
 }
 
 .btn-outline-secondary {
   border-radius: 50px;
   padding: 5px 20px;
   color: white;
-  font-size: large;
+  font-size: small;
 }
 
 .form-control::placeholder {
