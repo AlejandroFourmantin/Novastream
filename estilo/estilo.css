@@ -9,7 +9,7 @@
   font-size: 17px;
   color: white;
   font-weight: 900;
-  background-image: url(../contenido/backgraund/FONDONAV.png);
+  background-image: url(../contenido/background/FONDONAV.png);
   background-size: cover;
   background-position: center;
 }
@@ -18,13 +18,13 @@
   transition: 0.2s;
 }
 
+.imgnav {
+  width: 200px;
+  height: auto;
+}
+
 @media (hover: hover) {
   .textosnav:hover {
     transform: scale(1.1);
   }
-}
-
-.imgnav {
-  width: 200px;
-  height: auto;
 }
