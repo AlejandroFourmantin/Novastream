@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -43,15 +42,19 @@
 
 
 .btn-outline-secondary {
-  border-radius: 10px;
-  padding: 5px 20px;
   color: white;
+  font-size: 20px;
   border: 0;
 }
 
 .form-control::placeholder {
   font-size: large;
   color: gray;
+  font-size: 17px;
+}
+
+.form-control{
+width: 300px;
 }
 
 .shadow-color {
@@ -60,6 +63,7 @@
 
 main {
   background-color: #0f1111;
+  font-family: "Google Sans", sans-serif;
   padding-top: 80px;
 }
 
