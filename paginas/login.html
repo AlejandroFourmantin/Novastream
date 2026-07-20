@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="Regístrate en Nova Stream y accede al mejor catálogo de streaming. Crea tu cuenta rápida y fácilmente para disfrutar de tus series y películas favoritas en cualquier dispositivo.">
-    <meta name="keywords"
-        content="Nova Stream, crear cuenta, registro, registrarse, streaming, películas, series, suscripción de video, entretenimiento">
-    <meta name="author" content="Hector, Tadeo, Rafael, Alejandro" />
-    <link rel="shortcut icon" href="../contenido/logos/LOGO.FAVICON.png" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
-    <link rel="stylesheet" href="../estilo/estilo.css" />
-    <title>Crear Cuenta | Nova Stream</title>
+    <<meta name="description"
+        content="Accede a tu cuenta de Nova Stream. Inicia sesión para continuar viendo tus películas y series favoritas exactamente donde las dejaste.">
+        <meta name="keywords"
+            content="Nova Stream, iniciar sesión, login, entrar, cuenta, acceso, streaming, películas, series">
+        <meta name="author" content="Hector, Tadeo, Rafael, Alejandro" />
+        <link rel="shortcut icon" href="../contenido/logos/LOGO.FAVICON.png" type="image/x-icon" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous" />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="../estilo/estilo.css" />
+        <title>Iniciar Sesión | Nova Stream</title>
 </head>
 
 <body>
@@ -67,29 +69,29 @@
     </header>
     <main>
         <div class="d-flex justify-content-center align-items-center min-vh-100 py-4">
-            <form class="card p-4 shadow-color w-75 w-md-50 w-lg-25 form-container-limite">
-                <h3 class="text-center mb-4">CREA TU CUENTA</h3>
-                <div class="row mb-3 g-3">
-                    <div class="col-12 col-md-6">
-                        <input type="text" class="form-control w-100 formlogin" placeholder="Nombre" aria-label="Nombre"
-                            minlength="5" maxlength="25" required>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <input type="text" class="form-control  w-100 formlogin" placeholder="Apellido"
-                            aria-label="Apellido" minlength="5" maxlength="25" required>
-                    </div>
-                </div>
+            <form class="card p-4 shadow-color w-75 w-md-50 w-lg-25 form-container-limite-login">
+                <h3 class="text-center mb-4">INICIAR SESION</h3>
                 <div class="mb-3">
-                    <input type="email" class="form-control w-100 formlogin" placeholder="@Email" minlength="5"
+                    <input type="email" class="form-control w-100 formlogin" placeholder="@Email" minlength="8"
+                        maxlength="40" required>
+                </div>
+
+                <div class="mb-3">
+                    <input type="password" class="form-control w-100 formlogin" placeholder="Contraseña" minlength="8"
                         maxlength="30" required>
                 </div>
-
-                <div class="mb-3">
-                    <input type="password" class="form-control w-100 formlogin" placeholder="Contraseña" minlength="5"
-                        maxlength="25" required>
+                <div class="d-flex justify-content-between align-items-center mt-3 ms-1 mb-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="checkIndeterminate">
+                    <label class="form-check-label" for="checkIndeterminate">
+                        Recordarme
+                    </label>
                 </div>
-
-                <button type="submit" class="btn btn-primary w-100 text-crearcuenta">Crear cuenta</button>
+                <a href="../paginas/creatucuenta.html" class=" text-primary text-decoration-none fw-bold">
+                    Regístrate
+                </a>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 text-crearcuenta">Ingresar</button>
         </div>
         </form>
     </main>
