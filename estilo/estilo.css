@@ -96,6 +96,7 @@ font-weight: bolder;
 .card-suscrib{
   transition: 0.3s;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .card-suscrib:hover{
