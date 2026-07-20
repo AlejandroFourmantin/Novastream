@@ -67,6 +67,13 @@ main {
   border-width: 3px;
 }
 
+.form-container-limite-login{
+  max-width: 400px;
+  border-radius: 20px;
+  border-color: rgba(0, 195, 255, 0.6);
+  border-width: 3px;
+}
+
 .formlogin::placeholder{
   font-size: 15px;
 
