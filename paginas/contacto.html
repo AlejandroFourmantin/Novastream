@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top py-0">
+        <nav class="navbar navbar-expand-lg fixed-top py-2">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../contenido/logos/LOGO.NAV.png"
                         class="imgnav" /></a>
@@ -64,35 +64,68 @@
             </div>
         </nav>
     </header>
-       <main class="pt-5 min-vh-100">
+    <main class="pt-5 min-vh-100">
         <div class="d-flex justify-content-center align-items-center min-vh-100 py-4 mt-5">
-            <form class="card p-4 shadow-color w-75 w-md-50 w-lg-25 form-container-limite">
-                <h3 class="text-center mb-4">COMUNICATE CON NOSOTROS</h3>
-                <div class="row mb-3 g-3">
-                    <div class="col-12 col-md-6">
-                        <label for="Nombre" class="form-label text-white fw-bold">Nombre</label>
-                        <input type="text" class="form-control w-100 formlogin" placeholder="Ej: Juan"
-                            aria-label="Nombre" minlength="3" maxlength="25" required>
+            <div class="card p-4 shadow-color w-100 w-lg-75 form-container-doble border-secondary mx-4 my-5">
+                <h3 class="text-center mb-4 text-white">COMUNICATE CON NOSOTROS</h3>
+                <div class="row g-4 align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <form>
+                            <div class="row mb-3 g-3">
+                                <div class="col-12 col-md-6">
+                                    <label for="Nombre" class="form-label text-white fw-bold">Nombre</label>
+                                    <input type="text" class="form-control w-100 formlogin" placeholder="Ej: Juan"
+                                        aria-label="Nombre" minlength="3" maxlength="25" required>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="Apellido" class="form-label text-white fw-bold">Apellido</label>
+                                    <input type="text" class="form-control w-100 formlogin" placeholder="Ej: Ruiz"
+                                        aria-label="Apellido" minlength="3" maxlength="25" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Email" class="form-label text-white fw-bold">Email</label>
+                                <input type="email" class="form-control w-100 formlogin"
+                                    placeholder="Ej: novastream@gmail.com" minlength="5" maxlength="30" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="mensaje" class="form-label text-white fw-bold">Mensaje o Consulta</label>
+                                <textarea class="form-control w-100 text-white formlogin"
+                                    placeholder="Escribí tu consulta acá..." required minlength="5"
+                                    maxlength="400"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 text-crearcuenta">Enviar mensaje</button>
+                        </form>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <label for="Apellido" class="form-label text-white fw-bold">Apellido</label>
-                        <input type="text" class="form-control  w-100 formlogin" placeholder="Ej: Ruiz"
-                            aria-label="Apellido" minlength="3" maxlength="25" required>
+                    <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                        <div class="p-4 h-100 d-flex flex-column justify-content-center">
+
+                            <h4 class="fw-bold mb-3 text-white text-center">Atención Personalizada</h4>
+
+                            <p class="text-white-50 mb-4">
+                                ¿Necesitás ayuda con tu cuenta, tu suscripción o tenés dudas sobre nuestro catálogo?
+                                Hablá directamente con nuestro equipo para recibir asistencia rápida y sin vueltas.
+                            </p>
+                            <div class="row g-3">
+                                <div class="col-12 col-xl-6">
+                                    <span class="fw-bold d-block mb-1 text-white">Correo:</span>
+                                    <a href="#" class="text-decoration-none text-primary texto-correo py-5">
+                                        Novastream@gmail.com
+                                    </a>
+                                </div>
+                                <div class="col-12 col-xl-6">
+                                    <span class="fw-bold d-block mb-1 text-white">Línea Directa:</span>
+                                    <a href="#" target="_blank"
+                                        class="btn btn-primary w-100 fw-bold py-2 d-flex justify-content-center align-items-center gap-2">
+                                        <i class="bi bi-whatsapp"></i> Chatear
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="mb-3">
-                    <label for="Email" class="form-label text-white fw-bold">Email</label>
-                    <input type="email" class="form-control w-100 formlogin" placeholder="Ej: novastream@gmail.com"
-                        minlength="5" maxlength="30" required>
-                </div>
-
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label text-white fw-bold">Mensaje o Consulta</label>
-                    <textarea class="form-control w-100 text-white" placeholder="Escribí tu consulta acá..." required minlength="5" maxlength="400"></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary w-100 text-crearcuenta">Enviar mensaje</button>
-        </form>
+            </div>
+        </div>
     </main>
 
     <footer class="fondo-footer py-2">
