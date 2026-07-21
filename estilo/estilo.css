@@ -72,6 +72,11 @@ main {
   border-radius: 20px;
 }
 
+.form-container-doble{
+  max-width: 750px;
+  border-radius: 20px;
+}
+
 .form-container-limite-login{
   max-width: 500px;
   border-radius: 20px;
@@ -118,4 +123,8 @@ font-weight: bolder;
 }
 .fondo-footer:hover {
     background-image: linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)), url('../contenido/background/FONDONAV.png');
+}
+
+.texto-correo{
+  font-size: 12px;
 }
