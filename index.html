@@ -109,45 +109,42 @@
     <main>
       <section>
         <div
-          identificación="carruselEjemploReproducción automática"
-          clase="tobogán carrusel"
-          data-bs-ride="carrusel"
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
         >
-          <div clase="carrusel-interior">
-            <div clase="artículo carrusel activo">
-              <img src="..." clase="bloque d w-100" alt="..." />
+          <div class="carousel-inner hero-t">
+            <div class="carousel-item active">
+              <img src="./contenido/background/hero-desktop.png" class=" w-100 hero-desktop" alt="..." />
+              <img src="./contenido/background/hero-mobile.png" class="w-100 hero-mobile" alt="...">
             </div>
-            <div clase="artículo carrusel">
-              <img src="..." clase="bloque d w-100" alt="..." />
+            <div class="carousel-item">
+              <img src="./contenido/background/hero-desktop2.png" class=" w-100 hero-desktop" alt="..." />
+              <img src="./contenido/background/hero-mobile2.png" class="w-100 hero-mobile" alt="...">
             </div>
-            <div clase="artículo carrusel">
-              <img src="..." clase="bloque d w-100" alt="..." />
+            <div class="carousel-item">
+              <img src="./contenido/background/hero-desktop3.png" class=" w-100 hero-desktop" alt="..." />
+              <img src="./contenido/background/hero-mobile3.png" class="w-100 hero-mobile" alt="...">
             </div>
           </div>
-          <botón
-            clase="carrusel-control-prev"
-            tipo="botón"
-            data-bs-objetivo="#carouselExampleAutoplaying"
-            diapositiva-bs-datos="anterior"
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
           >
-            <lapso
-              clase="carrusel-control-prev-icon"
-              aria-oculta="verdadero"
-            ></lapso>
-            <lapso clase="visualmente oculto">Anterior</lapso>
-          </botón>
-          <botón
-            clase="carrusel-control-siguiente"
-            tipo="botón"
-            data-bs-objetivo="#carouselExampleAutoplaying"
-            diapositiva-bs-datos="siguiente"
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
           >
-            <lapso
-              clase="carrusel-control-siguiente-icono"
-              aria-oculta="verdadero"
-            ></lapso>
-            <lapso clase="visualmente oculto">Siguiente</lapso>
-          </botón>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
     </main>
