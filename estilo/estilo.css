@@ -8,7 +8,7 @@
 
 .navbar {
   font-family: "Google Sans", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   color: white;
   background-image: url(../contenido/background/FONDONAV.png);
   background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .imgnav {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -127,4 +127,9 @@ font-weight: bolder;
 
 .texto-correo{
   font-size: 12px;
+}
+
+.imgnavfooter{
+  width: 230px;
+  height: auto;
 }
