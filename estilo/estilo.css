@@ -150,5 +150,12 @@ main {
     height: 70vh;
     object-fit: cover;
   }
-} 
-
+}
+.carousel-item{
+  position: relative;
+}
+.hero-content{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
