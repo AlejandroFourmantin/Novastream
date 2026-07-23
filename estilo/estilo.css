@@ -39,7 +39,6 @@
   width: 250px;
 }
 
-
 .btn-outline-secondary {
   color: white;
   font-size: 20px;
@@ -52,8 +51,8 @@
   font-size: 17px;
 }
 
-.form-control{
-width: 300px;
+.form-control {
+  width: 300px;
 }
 
 .shadow-color {
@@ -72,45 +71,49 @@ main {
   border-radius: 20px;
 }
 
-.form-container-doble{
+.form-container-doble {
   max-width: 750px;
   border-radius: 20px;
 }
 
-.form-container-limite-login{
+.form-container-limite-login {
   max-width: 500px;
   border-radius: 20px;
 }
 
-.formlogin::placeholder{
+.formlogin::placeholder {
   font-size: 15px;
-
 }
-.formlogincrearcuenta::placeholder{
-font-weight: bolder;
-}
-
-.text-crearcuenta{
+.formlogincrearcuenta::placeholder {
   font-weight: bolder;
 }
 
-.conteiner-subs{
+.text-crearcuenta {
+  font-weight: bolder;
+}
+
+.conteiner-subs {
   margin-top: 80px;
 }
 
-.card-suscrib{
+.card-suscrib {
   transition: 0.3s;
   cursor: pointer;
   border-radius: 20px;
 }
 
-.card-suscrib:hover{
+.card-suscrib:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 20px 2px rgba(13, 110, 253, 0.5);
-  border-color: #0d6efd!important
+  border-color: #0d6efd !important;
 }
-
-.fondo-footer{
+.hero-t {
+  height: 100%;
+}
+.img-hero {
+  object-fit: cover;
+}
+.fondo-footer {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
   color: white;
@@ -119,17 +122,48 @@ font-weight: bolder;
   background-position: center;
   border-radius: 5px;
   background-color: #0f1111;
-  transition:0.3s ease;
+  transition: 0.3s ease;
 }
 .fondo-footer:hover {
-    background-image: linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)), url('../contenido/background/FONDONAV.png');
+  background-image:
+    linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)),
+    url("../contenido/background/FONDONAV.png");
 }
 
-.texto-correo{
+.texto-correo {
   font-size: 12px;
 }
+ feature/hero
+.hero-desktop{
+  height:500px;
+  display: block;
+  
+}
+.hero-mobile{
+  display: none;
+}
+@media (max-width: 765px){
+  .hero-desktop{
+    display: none;
+  }
+  .hero-mobile{
+    display: block;
+    height: 70vh;
+    object-fit: cover;
+  }
+}
+.carousel-item{
+  position: relative;
+}
+.hero-content{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
 
 .imgnavfooter{
   width: 230px;
   height: auto;
 }
+
