@@ -8,7 +8,7 @@
 
 .navbar {
   font-family: "Google Sans", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   color: white;
   background-image: url(../contenido/background/FONDONAV.png);
   background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .imgnav {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -133,6 +133,7 @@ main {
 .texto-correo {
   font-size: 12px;
 }
+ feature/hero
 .hero-desktop{
   height:500px;
   display: block;
@@ -159,3 +160,10 @@ main {
   top: 50%;
   left: 5%;
 }
+
+
+.imgnavfooter{
+  width: 230px;
+  height: auto;
+}
+
