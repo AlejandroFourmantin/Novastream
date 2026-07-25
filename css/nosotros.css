@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shadow-color {
+  box-shadow: 0 0 20px 10px rgb(29, 161, 242)
+}
+main {
+  background-color: #0f1111;
+  font-family: "Google Sans", sans-serif;
+  padding-top: 80px;
+  min-height: 100vh;
+}
+.form-container-limite-nostros{
+  max-width: 500px;
+  border-radius: 20px;
+}
