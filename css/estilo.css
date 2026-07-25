@@ -54,17 +54,9 @@ main {
   padding-top: 80px;
   min-height: 100vh;
 }
-
-/* .form-container-limite-login {
-  max-width: 500px; login
-  border-radius: 20px;
-} */
 /* .form-container-limite-nostros{
   max-width: 500px;  nosotros
   border-radius: 20px;
-} */
-/* .formlogin::placeholder {
-  font-size: 15px; login
 } */
 /* .conteiner-subs {
   margin-top: 80px;
@@ -101,7 +93,6 @@ main {
     linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)),
     url("../contenido/background/FONDONAV.png");
 }
-
 .hero-desktop{
   height:500px;
   display: block;
