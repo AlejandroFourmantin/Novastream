@@ -133,7 +133,6 @@ main {
 .texto-correo {
   font-size: 12px;
 }
- feature/hero
 .hero-desktop{
   height:500px;
   display: block;
@@ -160,8 +159,6 @@ main {
   top: 50%;
   left: 5%;
 }
-
-
 .imgnavfooter{
   width: 230px;
   height: auto;
