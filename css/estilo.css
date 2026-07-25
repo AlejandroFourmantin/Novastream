@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .navbar {
+.navbar {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
   color: white;
@@ -44,7 +44,7 @@
 }
 .form-control {
   width: 300px;
-} */ 
+}  
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
@@ -54,10 +54,7 @@ main {
   padding-top: 80px;
   min-height: 100vh;
 }
-/* .form-container-doble {
-  max-width: 750px; contacto
-  border-radius: 20px;
-} */
+
 /* .form-container-limite-login {
   max-width: 500px; login
   border-radius: 20px;
@@ -104,9 +101,7 @@ main {
     linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)),
     url("../contenido/background/FONDONAV.png");
 }
-/* .texto-correo {
-  font-size: 12px; contacto
-} */
+
 .hero-desktop{
   height:500px;
   display: block;
