@@ -54,19 +54,7 @@ main {
   padding-top: 80px;
   min-height: 100vh;
 }
-/* .conteiner-subs {
-  margin-top: 80px;
-}
-.card-suscrib {
-  transition: 0.3s;
-  cursor: pointer;
-  border-radius: 20px;
-}
-.card-suscrib:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 0 20px 2px rgb(29, 161, 242);
-  border-color: #1DA1F2!important;
-} */
+
 .hero-t {
   height: 100%;
 }
