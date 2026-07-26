@@ -64,3 +64,23 @@ main {
 .text-crearcuenta {
   font-weight: bolder;
 }
+.fondo-footer {
+  font-family: "Google Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-image: url(../assets/img/FONDONAV.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  background-color: #0f1111;
+  transition: 0.3s ease;
+}
+.fondo-footer:hover {
+  background-image:
+    linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)),
+    url("../assets/img/FONDONAV.png");
+}
+.imgnavfooter{
+  width: 230px;
+  height: auto;
+}
