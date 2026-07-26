@@ -8,7 +8,7 @@
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
   color: white;
-  background-image: url(../contenido/background/FONDONAV.png);
+  background-image: url(../assets/img/FONDONAV.png);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
@@ -89,7 +89,7 @@ main {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
   color: white;
-  background-image: url(../contenido/background/FONDONAV.png);
+  background-image: url(../assets/img/FONDONAV.png);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
@@ -99,7 +99,7 @@ main {
 .fondo-footer:hover {
   background-image:
     linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)),
-    url("../contenido/background/FONDONAV.png");
+    url("../assets/img/FONDONAV.png");
 }
 .imgnavfooter{
   width: 230px;
