@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .navbar {
@@ -59,12 +60,21 @@
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
 
+body{
+  background-color: #0f1111;
+}
 main {
+  font-family: "Google Sans", sans-serif;
+  background-color: #0f1111;
+}
+
+.main-index{
   background-color: #0f1111;
   font-family: "Google Sans", sans-serif;
   padding-top: 80px;
   min-height: 100vh;
 }
+
 
 .form-container-limite {
   max-width: 500px;
@@ -79,6 +89,12 @@ main {
 .form-container-limite-login {
   max-width: 500px;
   border-radius: 20px;
+}
+
+
+.contenedor-principal-todas-las-paginas{
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 .form-container-limite-nostros{
@@ -97,9 +113,6 @@ main {
   font-weight: bolder;
 }
 
-.conteiner-subs {
-  margin-top: 80px;
-}
 
 .card-suscrib {
   transition: 0.3s;
