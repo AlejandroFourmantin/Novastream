@@ -4,6 +4,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar {
+  font-family: "Google Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-image: url(../assets/img/FONDONAV.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  background-color: #0f1111;
+}
+.imgnav {
+  width: 150px;
+  height: auto;
+}
+.textosnav {
+  transition: 0.2s;
+  color: white;
+}
+@media (hover: hover) {
+  .textosnav:hover {
+    transform: scale(1.1);
+  }
+}
+.form-control {
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 250px;
+}
+.btn-outline-secondary {
+  color: white;
+  font-size: 20px;
+  border: 0;
+}
+.form-control::placeholder {
+  font-size: large;
+  color: gray;
+  font-size: 17px;
+}
+.form-control {
+  width: 300px;
+}
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
