@@ -85,6 +85,12 @@ main {
   top: 50%;
   left: 5%;
 }
+.card-s{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: none;
+  background-color: #0f1111;
+}
 .fondo-footer {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
