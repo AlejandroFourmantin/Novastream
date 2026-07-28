@@ -66,6 +66,10 @@ main {
 .text-crearcuenta {
   font-weight: bolder;
 }
+.contenedor-principal-todas-las-paginas{
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
 .fondo-footer {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
