@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #0f1111;
+}
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
 main {
-  background-color: #0f1111;
   font-family: "Google Sans", sans-serif;
   padding-top: 80px;
   min-height: 100vh;
