@@ -90,6 +90,10 @@ main {
   padding-bottom: 5%;
   border: none;
   background-color: #0f1111;
+  cursor: pointer;
+}
+.text-card{
+  padding-top: 3%;
 }
 .fondo-footer {
   font-family: "Google Sans", sans-serif;
