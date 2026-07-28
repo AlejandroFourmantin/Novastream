@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #0f1111;
+}
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
 main {
-  background-color: #0f1111;
   font-family: "Google Sans", sans-serif;
   padding-top: 80px;
   min-height: 100vh;
@@ -16,4 +18,8 @@ main {
 .form-container-limite-nostros{
   max-width: 500px;
   border-radius: 20px;
+}
+.contenedor-principal-todas-las-paginas{
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
