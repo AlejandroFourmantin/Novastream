@@ -51,11 +51,7 @@ body{
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
-main {
-  font-family: "Google Sans", sans-serif;
-  padding-top: 80px;
-  min-height: 100vh;
-}
+
 .form-container-doble{
   max-width: 750px;
   border-radius: 20px;
