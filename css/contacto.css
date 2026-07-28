@@ -1,128 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 .navbar {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
   color: white;
-  background-image: url(../contenido/background/FONDONAV.png);
+  background-image: url(../assets/img/FONDONAV.png);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
   background-color: #0f1111;
 }
-
 .imgnav {
   width: 150px;
   height: auto;
 }
-
 .textosnav {
   transition: 0.2s;
   color: white;
 }
-
 @media (hover: hover) {
   .textosnav:hover {
     transform: scale(1.1);
   }
 }
-
 .form-control {
   border-radius: 10px;
   padding: 10px 20px;
   width: 250px;
 }
-
 .btn-outline-secondary {
   color: white;
   font-size: 20px;
   border: 0;
 }
-
 .form-control::placeholder {
   font-size: large;
   color: gray;
   font-size: 17px;
 }
-
 .form-control {
   width: 300px;
-}
-
+}  
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
-
 main {
   background-color: #0f1111;
   font-family: "Google Sans", sans-serif;
   padding-top: 80px;
   min-height: 100vh;
 }
-
-.form-container-limite {
-  max-width: 500px;
-  border-radius: 20px;
-}
-
-.form-container-doble {
+.form-container-doble{
   max-width: 750px;
   border-radius: 20px;
 }
-
-.form-container-limite-login {
-  max-width: 500px;
-  border-radius: 20px;
-}
-
-.form-container-limite-nostros{
-  max-width: 500px;
-  border-radius: 20px;
-}
-
-.formlogin::placeholder {
-  font-size: 15px;
-}
-.formlogincrearcuenta::placeholder {
-  font-weight: bolder;
-}
-
-.text-crearcuenta {
-  font-weight: bolder;
-}
-
-.conteiner-subs {
-  margin-top: 80px;
-}
-
-.card-suscrib {
-  transition: 0.3s;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-.card-suscrib:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 0 20px 2px rgb(29, 161, 242);
-  border-color: #1DA1F2!important;
-}
-.hero-t {
-  height: 100%;
-}
-.img-hero {
-  object-fit: cover;
+.texto-correo {
+  font-size: 12px; 
 }
 .fondo-footer {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
   color: white;
-  background-image: url(../contenido/background/FONDONAV.png);
+  background-image: url(../assets/img/FONDONAV.png);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
@@ -132,43 +75,9 @@ main {
 .fondo-footer:hover {
   background-image:
     linear-gradient(rgb(20, 20, 20), rgb(71, 68, 68)),
-    url("../contenido/background/FONDONAV.png");
+    url("../assets/img/FONDONAV.png");
 }
-
-.texto-correo {
-  font-size: 12px;
-}
- feature/hero
-.hero-desktop{
-  height:500px;
-  display: block;
-  
-}
-.hero-mobile{
-  display: none;
-}
-@media (max-width: 765px){
-  .hero-desktop{
-    display: none;
-  }
-  .hero-mobile{
-    display: block;
-    height: 70vh;
-    object-fit: cover;
-  }
-}
-.carousel-item{
-  position: relative;
-}
-.hero-content{
-  position: absolute;
-  top: 50%;
-  left: 5%;
-}
-
-
 .imgnavfooter{
   width: 230px;
   height: auto;
 }
-
