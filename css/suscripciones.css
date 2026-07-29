@@ -45,9 +45,7 @@ body{
   color: gray;
   font-size: 17px;
 }
-.form-control {
-  width: 300px;
-}
+
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
