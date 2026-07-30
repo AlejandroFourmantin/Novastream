@@ -49,15 +49,11 @@ body{
   width: 300px;
 }
 .shadow-color {
-  box-shadow: 0 0 20px 10px rgb(29, 161, 242)
+  box-shadow: 0 0 10px 2px rgb(29, 161, 242)
 }
-main {
-  font-family: "Google Sans", sans-serif;
-  padding-top: 80px;
-  min-height: 100vh;
-}
+
 .form-container-limite-nostros{
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 20px;
 }
 .contenedor-principal-todas-las-paginas{
