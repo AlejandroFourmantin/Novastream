@@ -45,9 +45,7 @@ body{
   color: gray;
   font-size: 17px;
 }
-.form-control {
-  width: 300px;
-}
+
 .shadow-color {
   box-shadow: 0 0 20px 10px rgb(29, 161, 242)
 }
@@ -59,8 +57,7 @@ body{
 }
 .card-suscrib:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 20px 2px rgb(29, 161, 242);
-  border-color: #1DA1F2!important;
+  box-shadow: 0 0 10px 2px rgb(29, 161, 242);
 }
 .fondo-footer {
   font-family: "Google Sans", sans-serif;
