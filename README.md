@@ -31,7 +31,7 @@ Para el desarrollo de este proyecto se utilizaron las siguientes tecnologías:
 
 ## 🙋‍♂️ Autor
 
-Desarrollado por **Hector, Rafael, Tadeo y Ale** 
+Desarrollado por **Hector, Rafael, y Ale** 
 Para Clonar el repo: **(https://github.com/AlejandroFourmantin/Novastream.git)**
 
 ---
