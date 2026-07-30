@@ -165,4 +165,9 @@ main {
   border: 2px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
 }
-
+.categorias{
+  margin-bottom: 4%;
+}
+.card-img-catg{
+  filter: brightness(50%);
+}
