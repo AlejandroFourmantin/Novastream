@@ -138,4 +138,14 @@ main {
   border: 2px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
 }
+.tarjeta-2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  background-color:#1A1F2C;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
 
