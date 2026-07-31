@@ -69,7 +69,7 @@ main {
   }
   .hero-mobile{
     display: block;
-    height: 70vh;
+    height: 50vh;
     object-fit: cover;
   }
 }
