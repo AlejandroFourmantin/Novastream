@@ -57,8 +57,8 @@ main {
   min-height: 100vh;
 }
 .hero-desktop{
-  height:500px;
-  display: block;
+height: 500px;
+object-fit: cover;
 }
 .hero-mobile{
   display: none;
@@ -69,7 +69,7 @@ main {
   }
   .hero-mobile{
     display: block;
-    height: 50vh;
+    height: 500px;
     object-fit: cover;
   }
 }
@@ -111,4 +111,3 @@ main {
   width: 230px;
   height: auto;
 }
-
