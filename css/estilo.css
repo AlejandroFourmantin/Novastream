@@ -87,6 +87,23 @@ filter: brightness(70%);
   font-weight: 400;
   font-size: 6vw; 
 }
+.modal-container-hero1{
+  background-color: #0f1111;
+}
+.modal-body-hero1{
+  padding: 3%;
+  padding-right: 30%;
+}
+.modal-tittle-hero1{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.3rem;
+}
+.modal-fecha-hero1{
+  font-size: 1.3rem;
+}
+.bi-badge-hd-fill{
+  color: red;
+}
 .card-s{
   padding-top: 5%;
   padding-bottom: 5%;
