@@ -80,12 +80,7 @@ filter: brightness(70%);
 .hero-content{
   position: absolute;
   top: 50%;
-  left: 3%;
-}
-.tittle-hero{
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-size: 6vw; 
+  left: 5%;
 }
 .card-s{
   padding-top: 5%;
