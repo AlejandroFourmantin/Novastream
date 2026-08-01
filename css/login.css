@@ -78,3 +78,13 @@ body{
   width: 230px;
   height: auto;
 } 
+
+.textosnav {
+  transition: 0.2s;
+  color: white;
+}
+@media (hover: hover) {
+  .textosnav:hover {
+    transform: scale(1.1);
+  }
+}
