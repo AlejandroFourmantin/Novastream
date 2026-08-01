@@ -56,16 +56,11 @@ main {
   padding-top: 80px;
   min-height: 100vh;
 }
-.hero-t {
-  height: 100%;
-}
-.img-hero {
-  object-fit: cover;
-}
 .hero-desktop{
-  height:500px;
-  display: block;
-}
+height: 500px;
+object-fit: cover;
+filter: brightness(70%);
+}.
 .hero-mobile{
   display: none;
 }
@@ -75,7 +70,7 @@ main {
   }
   .hero-mobile{
     display: block;
-    height: 70vh;
+    height: 500px;
     object-fit: cover;
   }
 }
@@ -85,7 +80,29 @@ main {
 .hero-content{
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: 3%;
+}
+.tittle-hero{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 6vw; 
+}
+.modal-container-hero{
+  background-color: #0f1111;
+}
+.modal-body-hero{
+  padding: 3%;
+  padding-right: 30%;
+}
+.modal-tittle-hero{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.3rem;
+}
+.modal-fecha-hero{
+  font-size: 1.3rem;
+}
+.bi-badge-hd-fill{
+  color: red;
 }
 .card-s{
   padding-top: 5%;
@@ -117,4 +134,3 @@ main {
   width: 230px;
   height: auto;
 }
-
