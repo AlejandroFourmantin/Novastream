@@ -60,7 +60,7 @@ main {
 height: 500px;
 object-fit: cover;
 filter: brightness(70%);
-}
+}.
 .hero-mobile{
   display: none;
 }
