@@ -63,12 +63,11 @@ body{
 }
 
 .form-container-doble{
-  max-width: 750px;
+  max-width: 850px;
+  max-height: auto;
   border-radius: 20px;
 }
-.texto-correo {
-  font-size: 12px; 
-}
+
 .contenedor-principal-todas-las-paginas{
   margin-bottom: 10%;
   margin-top: 10%;
