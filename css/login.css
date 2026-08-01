@@ -25,11 +25,6 @@ body{
   transition: 0.2s;
   color: white;
 }
-@media (hover: hover) {
-  .textosnav:hover {
-    transform: scale(1.1);
-  }
-}
 .form-control {
   border-radius: 10px;
   padding: 10px 20px;
