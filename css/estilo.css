@@ -133,6 +133,7 @@ main {
 }
 .modal-capitulos{
  background-color: #0f1111;
+ border: none;
 }
 .img-modal-series {
   height: 100%;
