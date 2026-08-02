@@ -131,6 +131,27 @@ main {
 .modal-fecha-cards {
   font-size: 1.3rem;
 }
+.modal-capitulos{
+ background-color: #0f1111;
+}
+.img-modal-series {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  cursor: pointer;
+}
+.icon-series {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.img-modal-series:hover .icon-series {
+  opacity: 1;
+}
 .fondo-footer {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
