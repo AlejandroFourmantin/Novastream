@@ -63,7 +63,7 @@ body{
 }
 
 .form-container-limite-nostros{
-  max-width: 400px;
+  max-width: 500px;
   border-radius: 20px;
 }
 .contenedor-principal-todas-las-paginas{
@@ -89,4 +89,8 @@ body{
 .imgnavfooter{
   width: 230px;
   height: auto;
+}
+
+.img-avatars img{
+  width: 120px;
 }
