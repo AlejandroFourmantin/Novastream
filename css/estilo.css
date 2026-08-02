@@ -114,6 +114,20 @@ filter: brightness(70%);
 .text-card{
   padding-top: 3%;
 }
+.modal-container-cards{
+  background-color: #0f1111;
+}
+.modal-body-cards{
+  padding: 3%;
+  padding-right: 30%;
+}
+.modal-tittle-cards{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.3rem;
+}
+.modal-fecha-cards{
+  font-size: 1.3rem;
+}
 .fondo-footer {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
