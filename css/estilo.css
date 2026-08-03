@@ -70,7 +70,7 @@ main {
   }
   .hero-mobile {
     display: block;
-    height: 500px;
+    height: 400px;
     object-fit: cover;
   }
 }
@@ -79,7 +79,7 @@ main {
 }
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 3%;
 }
 .tittle-hero {
