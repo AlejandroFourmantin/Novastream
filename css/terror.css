@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  /* colores y background y tipografia*/
+  --color-body: #0f1111;
+  --color-text: white;
+  --backgrournd-img: url(../assets/img/FONDONAV.png);
+  --shadow-color: 0 0 20px 10px rgb(29, 161, 242);
+  --tipografia:"Google Sans", sans-serif;
+}
+
+body{
+  background-color: #0f1111;
+  font-family: "Google Sans", sans-serif;
+}
+.navbar {
+  font-family: "Google Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-image: url(../assets/img/FONDONAV.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  background-color: #0f1111;
+}
+.imgnav {
+  width: 150px;
+  height: auto;
+}
+.textosnav {
+  transition: 0.2s;
+  color: white;
+}
+@media (hover: hover) {
+  .textosnav:hover {
+    transform: scale(1.1);
+  }
+}
+.form-control {
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 250px;
+}
+.btn-outline-secondary {
+  color: white;
+  font-size: 20px;
+  border: 0;
+}
+.form-control::placeholder {
+  font-size: large;
+  color: gray;
+  font-size: 17px;
+}
+.form-control {
+  width: 300px;
+}
+.shadow-color {
+  box-shadow: 0 0 20px 10px rgb(29, 161, 242);
+}
+main {
+  font-family: "Google Sans", sans-serif;
+  padding-top: 80px;
+  min-height: 100vh;
+}
+.title-terror{
+  font-family: "Bebas Neue", sans-serif;
+  padding-top: 9%;
+  padding-left: 4%;
+}
