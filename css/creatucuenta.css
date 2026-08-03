@@ -4,6 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root{
+  /* colores y background y tipografia*/
+  --color-body: #0f1111;
+  --color-text: white;
+  --backgrournd-img: url(../assets/img/FONDONAV.png);
+  --shadow-color: 0 0 20px 10px rgb(29, 161, 242);
+  --tipografia:"Google Sans", sans-serif;
+}
+
 body{
   background-color: #0f1111;
 }
@@ -86,3 +96,4 @@ body{
   width: 230px;
   height: auto;
 }
+
