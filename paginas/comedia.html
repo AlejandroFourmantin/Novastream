@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es" data-bs-theme="dark">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -41,7 +41,7 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/comedia.css" />
+    <link rel="stylesheet" href="../css/terror.css" />
     <title>Nova Stream | Inicio</title>
   </head>
   <body>
@@ -101,15 +101,15 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="../paginas/terror.html"
-                      >Terror</a
-                    >
-                  </li>
-                  <li>
                     <a
                       class="dropdown-item"
                       href="../paginas/cienciaficcion.html"
                       >Ciencia ficccíon</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../paginas/comedia.html"
+                      >Comedia</a
                     >
                   </li>
                 </ul>
@@ -131,16 +131,56 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1 class="display-2 title-terror">Comedia</h1>
-        <hr/>
+        <section>
+        <h1 class="display-2 title-terror">Terror</h1>
+        <hr />
       </section>
+      <section>
+        <div class="container pb-5">
+          <div class="title-peliculas">
+            <h2>Peliculas</h2>
+          </div>
+          <hr />
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div class="card card-peli-terror">
+                <img
+                  src="../assets/img/seccionterror1.jpg"
+                  class="card-img-top img-peli-terror"
+                  alt="..."
+                />
+                <div class="contenido-cards">
+                  <div class="card-title">
+                    <h4>Noche de Caza</h4>
+                  </div>
+                  <div class="icons-cards">
+                    <i
+                      class="bi bi-play-circle-fill"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal-terror"
+                    >
+                    </i>
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    <i class="bi bi-bookmark"></i>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <h6>
+                      <span class="badge text-bg-danger">18+</span>
+                    </h6>
+                    <h6>
+                      <span class="badge">Pelicula</span>
+                    </h6>
+                    <h6>
+                      <span class="badge text-bg-danger">FULL HD</span>
+                    </h6>
+                    <h6>
+                      <span class="badge">1h 50min</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
     </main>
     <footer></footer>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"
-  ></script>
 </html>
