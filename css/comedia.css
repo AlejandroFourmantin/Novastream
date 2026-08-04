@@ -123,3 +123,26 @@ main {
 .bi-hand-thumbs-up-fill:hover {
   filter: brightness(60%);
 }
+.modal-video-terror {
+  width: 100%;
+}
+.modal-container-cards {
+  background-color: #0f1111;
+  color: white;
+}
+.modal-body-cards {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.modal-pelis-extras {
+  padding-top: 3%;
+}
+.modal-title{
+  padding-top: 2%;
+  font-family: "Bebas Neue", sans-serif;
+}
+.modal-img{
+  cursor: pointer;
+}
