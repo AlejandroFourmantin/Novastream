@@ -132,16 +132,6 @@ main {
   flex-direction: column;
   text-align: center;
 }
-.modal-tittle-cards {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 3.3rem;
-}
-.modal-fecha-cards {
-  font-size: 1.3rem;
-}
-.bi-badge-hd-fill {
-  color: red;
-}
 .modal-pelis-extras {
   padding-top: 3%;
 }
