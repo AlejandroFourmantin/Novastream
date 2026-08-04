@@ -120,3 +120,28 @@ main {
 .bi-hand-thumbs-up-fill:hover {
   filter: brightness(60%);
 }
+.modal-video-terror {
+  width: 100%;
+}
+.modal-container-cards {
+  background-color: #0f1111;
+}
+.modal-body-cards {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.modal-tittle-cards {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.3rem;
+}
+.modal-fecha-cards {
+  font-size: 1.3rem;
+}
+.bi-badge-hd-fill {
+  color: red;
+}
+.modal-pelis-extras {
+  padding-top: 3%;
+}
