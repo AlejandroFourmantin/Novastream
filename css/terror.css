@@ -135,3 +135,10 @@ main {
 .modal-pelis-extras {
   padding-top: 3%;
 }
+.modal-title{
+  padding-top: 2%;
+  font-family: "Bebas Neue", sans-serif;
+}
+.modal-img{
+  cursor: pointer;
+}
