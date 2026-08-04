@@ -67,3 +67,8 @@ main {
   padding-top: 80px;
   min-height: 100vh;
 }
+.title-terror {
+  font-family: "Bebas Neue", sans-serif;
+  padding-top: 9%;
+  padding-left: 4%;
+}
