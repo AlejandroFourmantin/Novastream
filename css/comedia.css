@@ -5,19 +5,19 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   /* colores y background y tipografia*/
   --color-body: #0f1111;
   --color-text: white;
   --backgrournd-img: url(../assets/img/FONDONAV.png);
   --shadow-color: 0 0 20px 10px rgb(29, 161, 242);
-  --tipografia:"Google Sans", sans-serif;
+  --tipografia: "Google Sans", sans-serif;
 }
 
-body{
+body {
   background-color: #0f1111;
+  font-family: "Google Sans", sans-serif;
 }
-
 .navbar {
   font-family: "Google Sans", sans-serif;
   font-size: 15px;
@@ -67,8 +67,59 @@ main {
   padding-top: 80px;
   min-height: 100vh;
 }
-.title-terror {
+.title-comedia {
   font-family: "Bebas Neue", sans-serif;
   padding-top: 9%;
   padding-left: 4%;
+  color: white;
+}
+.title-peliculas {
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+}
+.card-peli-comedia {
+  height: 450px;
+  position: relative;
+  border-radius: 20px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.card-peli-comedia:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+.img-peli-comedia {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contenido-cards {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  color: white;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+.icons-cards {
+  display: flex;
+  font-size: 1.7rem;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.bi-play-circle-fill {
+  color: red;
+  transition: filter 0.3s ease;
+}
+.bi-play-circle-fill:hover {
+  filter: brightness(60%);
+}
+.bi-hand-thumbs-up-fill {
+  transition: filter 0.3s ease;
+}
+.bi-hand-thumbs-up-fill:hover {
+  filter: brightness(60%);
 }
